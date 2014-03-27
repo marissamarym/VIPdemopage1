@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<img src="images/bg.jpg" id="bg" alt="">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>VIP Demo</title>
+		<meta name="description" content="App Showcase with Grid Overlay" />
+		<meta name="keywords" content="app, showcase, css transitions, perspective, 3d, grid, overlay, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+				<span class="right">
+					<a><strong>By the VIP Team</strong></a>
+			</div><!--/ Codrops top bar -->
+			<header class="clearfix">
+				<div class="inner">
+					<h1><strong><img src="images/vipfullLogo1.jpg" height="60px" width="120px" text-align="right" style="float:left"></img></strong></h1>
+					
+				</div>
+			</header>
+			<div class="main">
+				<div id="ac-wrapper" class="ac-wrapper">
+					<h2 color="#b0182b">Skip lines.<span>Don't wait.</span></h2>
+					<div class="ac-device">
+						<a href="#"><img src="images/screen1.png"/></a>
+						<h3 class="ac-title" color="#fff">Get to the fun parts faster.</h3>
+					</div>
+					<div class="ac-grid">
+						<a href="#"><img src="images/screen1.png" /><span>See all the events for the night.</span></a>
+						<a href="#"><img src="images/screen2.png"/><span>All on one app.</span></a>
+						<a href="#"><img src="images/screen3.png"/><span>Buy a VIP ticket for the night.</span></a>
+						<a href="#"><img src="images/screen2.png"/><span>Invite your friends.</span></a>
+					</div>
+				</div>	
+				<p>Click to toggle between single and grid view.</p>			
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/appshowcase.js"></script>
+		<script>
+			$(function() {
+				AppShowcase.init();
+			});
+		</script>
+	</body>
+</html>
